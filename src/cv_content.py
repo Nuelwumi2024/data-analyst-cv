@@ -132,7 +132,10 @@ EDUCATION = [
 
 CERTIFICATIONS = [
     "Microsoft PL-300: Power BI Data Analyst Associate (exam preparation in progress)",
-    "Advanced Data Analytics 2025 (Excel, SQL, Power BI, Python)",
+    "Data Analysis and Business Intelligence with Microsoft Excel, Udemy (March 2026 - Present)",
+    "Data Analytics Masters Certifications, Udemy (February 2025 - Present)",
+    "Certified Data Analyst and Scientist (May 2024 - Present)",
+    "Advanced Data Analytics Certifications, Google Data Analytics (April 2024 - Present)",
     "Advanced BI and DAX Modelling (Excel / Power Query)",
 ]
 
