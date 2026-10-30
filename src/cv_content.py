@@ -17,8 +17,8 @@ SUMMARY = (
     "now working in sales analytics. M.Sc. in Microbiology, with earlier experience in laboratory and quality "
     "assurance, which built a habit of validating data, tracing deviations to root cause and reporting "
     "clearly to management. Builds end-to-end analytics projects on Nigerian data (inflation, payments, "
-    "distribution, customer reviews) with tested code, stated limitations and recommendations a decision-maker "
-    "can act on."
+    "distribution, customer reviews) and Power BI case studies in retail and HR, with tested code, stated "
+    "limitations and costed recommendations a decision-maker can act on."
 )
 
 SKILLS = [
@@ -96,20 +96,30 @@ PROJECTS = [
         ],
     },
     {
-        "name": "Naira Payments ETL Pipeline (synthetic data)",
-        "stack": "Python, DuckDB, SQL, Airflow, pytest, GitHub Actions",
-        "url": "github.com/Nuelwumi2024/naira-payments-etl-pipeline",
+        "name": "Atlas Global Retail: Sales and Profitability Analysis (Power BI, synthetic data)",
+        "stack": "Power BI, DAX, Power Query, star-schema modelling, Python",
+        "url": "github.com/Nuelwumi2024/powerbi-global-superstore-analysis",
         "bullets": [
-            "Built a batch ETL with a star schema that processed 117,891 raw records, quarantined 1,051 bad rows with reasons and removed 703 duplicates; the run fails unless row counts reconcile.",
+            "Built a four-page Power BI report (star schema, DAX measures, budget-vs-actual) on 9,818 order lines to explain why sales grew 43% while profit grew 6%; sales were within 1% of target but profit was 16% short.",
+            "Traced the gap to discounting: lines discounted 30% or more sold $505K and lost $105K, and the average discount rose from 10.8% to 14.5%. Estimated that a 20% discount cap adds about $125K of profit (+26%) with volume held constant.",
         ],
     },
     {
-        "name": "Fintech dbt Analytics Warehouse and Fraud Analysis (synthetic data)",
-        "stack": "dbt, DuckDB, SQL, Python",
-        "url": "github.com/Nuelwumi2024/fintech-dbt-analytics-warehouse",
+        "name": "HR Attrition and Workforce Analytics (Power BI, synthetic data)",
+        "stack": "Power BI, DAX, Power Query, Python",
+        "url": "github.com/Nuelwumi2024/powerbi-hr-attrition-dashboard",
         "bullets": [
-            "Built a layered dbt warehouse (8 models, 12 data tests, all passing) with CI running dbt build on every push.",
-            "Showed fraud is about 2.9x likelier at night and that four simple rules catch 29% of fraud while reviewing 7.7% of traffic.",
+            "Modelled 1,500 employee records in Power BI with DAX (tenure bands, attrition rate, replacement cost) across three report pages.",
+            "Found 27.5% attrition concentrated in Customer Support (49%) and early-tenure staff; overtime lifted attrition from 23% to 38%. Costed it at about $13M and recommended five actions.",
+        ],
+    },
+    {
+        "name": "Data Engineering Projects (synthetic data)",
+        "stack": "Python, DuckDB, SQL, dbt, Airflow, pytest, GitHub Actions",
+        "url": "github.com/Nuelwumi2024/naira-payments-etl-pipeline",
+        "bullets": [
+            "Naira Payments ETL: batch pipeline with a star schema that processed 117,891 raw records, quarantined 1,051 bad rows with reasons and removed 703 duplicates; the run fails unless row counts reconcile.",
+            "Fintech dbt warehouse and fraud analysis: 8 models and 12 passing data tests with CI; showed fraud is about 2.9x likelier at night and that four simple rules catch 29% of fraud while reviewing 7.7% of traffic.",
         ],
     },
 ]
@@ -126,4 +136,4 @@ CERTIFICATIONS = [
     "Advanced BI and DAX Modelling (Excel / Power Query)",
 ]
 
-PORTFOLIO_LINE = "Portfolio of 8 projects with code, tests and write-ups: github.com/Nuelwumi2024"
+PORTFOLIO_LINE = "Portfolio of 10 projects with code, tests and write-ups: github.com/Nuelwumi2024"
