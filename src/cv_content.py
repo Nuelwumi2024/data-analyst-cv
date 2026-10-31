@@ -17,7 +17,7 @@ SUMMARY = (
     "now working in sales analytics. M.Sc. in Microbiology, with earlier experience in laboratory and quality "
     "assurance, which built a habit of validating data, tracing deviations to root cause and reporting "
     "clearly to management. Builds end-to-end analytics projects on Nigerian data (inflation, payments, "
-    "distribution, customer reviews) and Power BI case studies in retail and HR, with tested code, stated "
+    "distribution, customer reviews) and Power BI case studies in retail and HR and a healthcare readmissions analysis on real Medicare data, with tested code, stated "
     "limitations and costed recommendations a decision-maker can act on."
 )
 
@@ -26,7 +26,7 @@ SKILLS = [
     ("Programming", "Python (pandas, NumPy, Matplotlib), R (tidyverse), pytest"),
     ("Data engineering", "ETL/ELT design, star-schema modelling, dbt, Airflow, data-quality testing, GitHub Actions CI"),
     ("Methods", "KPI and cohort analysis, forecasting, statistical testing and regression, risk metrics, root cause analysis"),
-    ("Domains", "Sales analytics, fintech (payments, fraud, lending), FMCG distribution, quality assurance"),
+    ("Domains", "Sales analytics, healthcare analytics, fintech (payments, fraud, lending), FMCG distribution, quality assurance"),
 ]
 
 EXPERIENCE = [
@@ -114,6 +114,15 @@ PROJECTS = [
         ],
     },
     {
+        "name": "Hospital Readmissions Analysis (real CMS Medicare data)",
+        "stack": "Python, pandas, Matplotlib, Power BI (DAX)",
+        "url": "github.com/Nuelwumi2024/hospital-readmissions-analysis",
+        "bullets": [
+            "Pulled the CMS Hospital Readmissions Reduction Program data through its public API (3,055 hospitals, 11,720 reported results) and estimated excess readmissions by condition, state and hospital.",
+            "Found that heart failure and pneumonia drive 77% of excess readmissions, and that 561 hospitals (23.5%) worse than benchmark on at least 75% of their conditions generate 49% of it; a shuffle test showed this persistence is not chance.",
+        ],
+    },
+    {
         "name": "Data Engineering Projects (synthetic data)",
         "stack": "Python, SQL, dbt, Airflow, pytest, GitHub Actions",
         "url": "github.com/Nuelwumi2024/naira-payments-etl-pipeline",
@@ -139,4 +148,4 @@ CERTIFICATIONS = [
     "Advanced BI and DAX Modelling (Excel / Power Query)",
 ]
 
-PORTFOLIO_LINE = "Portfolio of 10 projects with code, tests and write-ups: github.com/Nuelwumi2024"
+PORTFOLIO_LINE = "Portfolio of 11 projects with code, tests and write-ups: github.com/Nuelwumi2024"
