@@ -22,7 +22,7 @@ SUMMARY = (
 )
 
 SKILLS = [
-    ("Analysis & BI", "SQL (MySQL, SQL Server, DuckDB), Power BI (DAX, Power Query), Tableau, Excel"),
+    ("Analysis & BI", "SQL (MySQL, SQL Server), Power BI (DAX, Power Query), Tableau, Excel"),
     ("Programming", "Python (pandas, NumPy, Matplotlib), R (tidyverse), pytest"),
     ("Data engineering", "ETL/ELT design, star-schema modelling, dbt, Airflow, data-quality testing, GitHub Actions CI"),
     ("Methods", "KPI and cohort analysis, forecasting, statistical testing and regression, risk metrics, root cause analysis"),
@@ -79,7 +79,7 @@ PROJECTS = [
     },
     {
         "name": "FMCG Distribution Analytics (synthetic data)",
-        "stack": "SQL, DuckDB, Python, Power BI (DAX), pytest",
+        "stack": "SQL, Python, Power BI (DAX), pytest",
         "url": "github.com/Nuelwumi2024/nigeria-fmcg-distribution-analytics",
         "bullets": [
             "Analysed margin, product mix, channels, stock-outs and rep attainment in SQL; found gross margin falling from 18.8% to 11.8% as costs outran prices.",
@@ -115,7 +115,7 @@ PROJECTS = [
     },
     {
         "name": "Data Engineering Projects (synthetic data)",
-        "stack": "Python, DuckDB, SQL, dbt, Airflow, pytest, GitHub Actions",
+        "stack": "Python, SQL, dbt, Airflow, pytest, GitHub Actions",
         "url": "github.com/Nuelwumi2024/naira-payments-etl-pipeline",
         "bullets": [
             "Naira Payments ETL: batch pipeline with a star schema that processed 117,891 raw records, quarantined 1,051 bad rows with reasons and removed 703 duplicates; the run fails unless row counts reconcile.",
