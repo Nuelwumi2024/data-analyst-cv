@@ -6,7 +6,7 @@ Facts come from the author's published CV repo and project READMEs. Edit here, t
 NAME = "Emmanuel Omowumi"
 TITLE = "Senior Data Analyst | SQL, Python, Power BI | Fintech and Commercial Analytics"
 CONTACT = [
-    ("Lagos, Nigeria", None),
+    ("Ibadan, Nigeria", None),
     ("emmanueloluwatobi2015@gmail.com", "mailto:emmanueloluwatobi2015@gmail.com"),
     ("linkedin.com/in/emmanuel-omowumi-98bb03139", "https://www.linkedin.com/in/emmanuel-omowumi-98bb03139/"),
     ("github.com/Nuelwumi2024", "https://github.com/Nuelwumi2024"),
